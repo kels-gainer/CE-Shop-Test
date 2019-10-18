@@ -91,6 +91,10 @@ nav ul {
     text-align: center;
 }
 
+.more-info:hover {
+    background-color: unset !important;
+}
+
 /* Cards */
 
 .card {
