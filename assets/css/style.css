@@ -1,0 +1,115 @@
+/* navs */
+a {
+    color: inherit;
+};
+
+a:visited {
+    text-decoration: none;
+}
+ 
+a:hover 
+{
+    background-color:#81AA52;
+    color: white;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+  
+a:active {
+   text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    width: 225px;
+    float: left;
+}
+
+.nav-top {
+    font-size: 12px;
+    color: #333333;
+    justify-content: flex-end;
+    position: relative;
+    background: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top:50px;
+};
+
+.nav-mid {
+    font-size: 12px;
+    color: #333333;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #B5B5B5;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display:block;
+};
+
+.navbar-btm {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;  
+}
+
+/* Main Header */
+.M-info {
+    padding: 20px 0px 0px 0px;
+    margin: 0;
+    max-width: 975px;
+    justify-content: center;
+}
+
+.M-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin: 20px 0px 0px;
+    color: #6D6D6D;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+}
+
+.M-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #6D6D6D;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+}
+
+/* Cards */
+
+.card {
+    border: none;
+    font-family: 'Lato' sans-serif;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-change {
+    color: #E5E5E5;
+    height: 50px;
+}
